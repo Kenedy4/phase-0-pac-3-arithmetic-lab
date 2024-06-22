@@ -10,6 +10,6 @@ function multiply(a, b) {
 function divide(a, b) {
   return a / b;
 }
-function add(a) {
-  return a++;
+function increment(n) {
+  return (n = n + 1);
 }
